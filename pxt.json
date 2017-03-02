@@ -1,0 +1,27 @@
+{
+    "name": "testcpp",
+    "version": "0.3.2",
+    "description": "Tinkercademy Test CPP Driver",
+    "license": "MIT",
+    "dependencies": {
+        "core": "*"
+    },
+    "files": [
+        "README.md",
+        "testcpp.ts",
+        "testcpp.cpp"
+    ],
+    "testFiles": [
+        "testcpptest.ts"
+    ],
+    "yotta": {
+        "config": {
+            "microbit-dal": {
+                "bluetooth": {
+                    "enabled": 0
+                }
+            }
+        }
+    },
+    "public": true
+}
