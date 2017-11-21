@@ -93,7 +93,6 @@ while (true) {
 
 ## Supported targets
 
-* for PXT/microbit
 
 ## License
 
